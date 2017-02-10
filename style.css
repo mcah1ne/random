@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+    background-color: aqua;
+}
 #button-container {
     text-align: center;
 }
 
 h1 {
+    font-family: Anton;
     text-align: center;
+    color: beige;
 }
+
