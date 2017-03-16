@@ -5,20 +5,38 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+    var my1 = Math.random()
+    if(my1>.5){
+    
     makeRect(0,0,200,200,"aqua", 1)
    makeCircle(150,70, 25, "orange", 1)
    makeRect(10,50,40,40, "indigo",1)
    makeEllipse(90,50,25,50, "blue", 1)
+}else {
+    
+  makeRect(0,0,200,200,"orange", 1)
+   makeCircle(150,70, 25, "aqua", 1)
+   makeRect(10,50,40,40, "blue",1)
+   makeEllipse(90,50,25,50, "indigo", 1)
+}
 }
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+    var my2 = Math.random()
+    if(my2>.5){
     makeRect(0,0,200,200,"aqua", 1)
     makeCircle(90,70, 25, "red", 1)
    makeRect(150,50,40,40, "blue",1)
    makeEllipse(10,50,25,50, "green", 1)
+    }else{
+    makeRect(0,0,200,200,"red", 1)
+    makeCircle(90,70, 25, "aqua", 1)
+   makeRect(150,50,40,40, "green",1)
+   makeEllipse(10,50,25,50, "blue", 1)
+    }
 }
 
 
@@ -26,10 +44,18 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    var my3 = Math.random()
+    if(my3>.5){
     makeRect(0,0,200,200,"aqua", 1)
    makeCircle(20,70, 25, "lime", 1)
    makeRect(75,50,40,40, "orange",1)
    makeEllipse(150,50,25,50, "purple", 1)
+}else{
+ makeRect(0,0,200,200,"lime", 1)
+   makeCircle(20,70, 25, "aqua", 1)
+   makeRect(75,50,40,40, "purple",1)
+   makeEllipse(150,50,25,50, "orange", 1)
+}
 }
 
 
